@@ -28,6 +28,7 @@ class Graph
         void displayEdges();
         void breadthFirstTraverse(string sourceVertex);
         int getConnectedBuildings();
+        void bfsHelper(string sourceVertex);
        
         vector<vertex*> getVertices(){return vertices;}
 
